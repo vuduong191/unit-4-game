@@ -1,0 +1,108 @@
+body{
+    background-image: url("../images/background.jpg");
+    background-size: 1200px;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-color: rgb(0,138,148);
+}
+#game-title{
+    font-family: 'Special Elite';
+    font-size: 3em;
+    color: white;
+    text-align: center;
+    margin-top: 0.3em;
+}
+.info-cat {
+    clear: both;
+    font-family: 'Permanent Marker';
+    color: rgb(209, 209, 209);
+    font-size: 1.2em;
+    margin-top: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+#game-section {
+    width: 960px;
+    margin: auto;
+}
+.your-char,.available-enemies, .fight-section, .defender {
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.available-enemies {
+    margin-top:60px;
+}
+.attackmode {
+    box-align: center;
+    width: 120px;
+    height: 120px;
+    background-image: radial-gradient(circle,rgba(255, 94, 0, 0.781),rgba(255, 94, 0, 0.781),rgba(0,138,148,1),rgba(0,138,148,0));
+}
+.friendmode {
+    width: 120px;
+    height: 120px;
+    background-image: radial-gradient(circle,rgba(7, 155, 7, 0.781),rgba(7, 155, 7, 0.781),rgba(0,138,148,1),rgba(0,138,148,0));
+}
+
+.chariconstrength {
+    font-family: Raleway;
+    font-size:1em;
+    text-align: center;
+    color: rgb(224, 224, 224);
+}
+.charIconTitle {
+    font-family: Raleway;
+    font-size:0.7em;
+    text-align: center;
+    color: rgb(224, 224, 224);
+}
+.chariconimg {
+    height: 120px;
+    align-content: center;
+}
+.chariconimg:hover {
+    height: 140px;
+    align-content: center;
+}
+.charicon {
+    margin:5px 20px 20px 40px;
+    display: inline-block;
+    float: left;
+}
+.row {
+    clear: both;
+    margin-top: 40px;
+}
+.fight-section {
+    clear: both;
+    margin:auto;
+    margin-top:20px;
+    height: 6em;
+    width: 6em;
+    background-image: url("../images/button.png");
+    background-size: 6em;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding:1px;
+    text-align: center;
+    display: block;
+
+}
+.char-list{
+
+    margin-bottom: 50px;
+    margin-left: 70px;
+}
+.annoucement-text {
+    font-family: 'Permanent Marker';
+    font-size: 2em;
+}
+.announcement {
+    clear: both;
+    margin: 220px;
+}
+.click  {
+    font-family: 'Permanent Marker';
+    font-size: 3em;
+    color: white
+}
