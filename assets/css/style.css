@@ -78,6 +78,7 @@ body{
     border: 2px solid  rgb(209, 209, 209,0.5);
     padding: 10px;
     border-radius: 25px;
+    /* background-image:  radial-gradient(rgb(255, 196, 0),rgba(0,138,148,0)); */
 }
 .fight-section {
     clear: both;
